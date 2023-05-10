@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My burger</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <a href="#" class="logo">My Burger</a>
+        <div class="nav-links">
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Equipe</a></li>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <img src="menu-btn.png" alt="menu hamburger" class="menu-hamburger">
+
+    </nav>
+    <header>
+        <!-- <h1>MY BURGER</h1>
+        <h4>A DEGUSTER SUR PLACE OU A EMPORTER !</h4>
+        <label for="city-select">Choisissez votre restaurant:</label>
+
+        <select name="villes" id="ville">
+    <option value="">--Nos restaurants--</option>
+    <option value="ville">Saint Pierre</option>
+    <option value="ville">Saint Paul</option>
+    <option value="ville">Saint Louis</option>
+
+</select>-->
+
+    </header>
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+
+        menuHamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+
+
+    <section class="presentation" id="presentation">
+
+        <h1>Qui sommes nous ?</h1>
+        <p>Vulputate in elit tincidunt elit scelerisque massa fusce pharetra. porttitor.
+            <br> Vulputate in elit tincidunt elitcelerisque massa fusce pharetra. porttitor.
+            <br> Vulputate in elit scelerisquea fusce pharetra. porttitor.
+        </p>
+
+    </section>
+
+
+
+
+
+
+
+    <section class="carroussel" id="carousel">
+        <div class="wrapper">
+            <div class="carousel">
+                <img src="Restaurant_My_Burger_14.jpg" alt="img">
+                <img src="Restaurant_My_Burger_14.jpg" alt="img">
+                <img src="Restaurant_My_Burger_14.jpg" alt="img">
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="menu" id="menu">
+        <div class="content">
+
+            <h1>MENU</h1>
+            <p>Vulputate in elit tincidunt elit scelerisque massa fusce pharetra. porttitor.
+                <br> Vulputate in elit tincidunt elit scelerisque massa fusce pharetra. porttitor.
+
+            </p>
+
+            <div class="card">
+                <div class="left">
+                    <h1>Hamburger</h1>
+                    <p>Hamburger fait maison Hamburger fait maisonHamburger fait maison</p>
+                </div>
+                <div class="right">
+                    <img src="Restaurant_My_Burger_31.jpg" alt="img">
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="left">
+                    <h1>Hamburger</h1>
+                    <p>Hamburger fait maison Hamburger fait maisonHamburger fait maison</p>
+                </div>
+                <div class="right">
+                    <img src="Restaurant_My_Burger_31.jpg" alt="img">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="left">
+                    <h1>Hamburger</h1>
+                    <p>Hamburger fait maison Hamburger fait maisonHamburger fait maison</p>
+                </div>
+                <div class="right">
+                    <img src="Restaurant_My_Burger_31.jpg" alt="img">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="left">
+                    <h1>Hamburger</h1>
+                    <p>Hamburger fait maison Hamburger fait maisonHamburger fait maison</p>
+                </div>
+                <div class="right">
+                    <img src="Restaurant_My_Burger_31.jpg" alt="img">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!--Testimonials------------------->
+    <section id="testimonials">
+        <!--heading--->
+        <div class="testimonial-heading">
+            <span>Commentaires</span>
+            <h1>Ce que les clients disent :</h1>
+        </div>
+        <!--testimonials-box-container------>
+        <div class="testimonial-box-container">
+            <!--BOX-1-------------->
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="images/c-1.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Touseeq Ijaz</strong>
+                            <span>@touseeqijazweb</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.
+                    </p>
+                </div>
+            </div>
+            <!--BOX-2-------------->
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="images/c-2.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>J.K Rowling</strong>
+                            <span>@jkrowling</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.
+                    </p>
+                </div>
+            </div>
+            <!--BOX-3-------------->
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="images/c-3.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Harry Potter</strong>
+                            <span>@DanielRedclief</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.
+                    </p>
+                </div>
+            </div>
+            <!--BOX-4-------------->
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="images/c-4.jpg" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Oliva</strong>
+                            <span>@Olivaadward</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h1>Nos services</h1>
+        <div class="services">
+            <div class="service">
+                <h3>Qualité</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur asperiores ipsum laboriosam vel quia quibusdam ratione ex similique, debitis aspernatur laborum quos, repudiandae eos eligendi autem! Beatae odio eligendi sint?</p>
+            </div>
+            <div class="service">
+                <h3>Aimer ou rembourser</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur asperiores ipsum laboriosam vel quia quibusdam ratione ex similique, debitis aspernatur laborum quos, repudiandae eos eligendi autem! Beatae odio eligendi sint?</p>
+            </div>
+            <div class="service">
+                <h3>Nos services</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur asperiores ipsum laboriosam vel quia quibusdam ratione ex similique, debitis aspernatur laborum quos, repudiandae eos eligendi autem! Beatae odio eligendi sint?</p>
+            </div>
+
+        </div>
+
+        <p id="contact">Copyright © 2023. Eva CGV Garantie Lègale Mention Légale</p>
+    </footer>
+
+</body>
+
+</html>
